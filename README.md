@@ -1,10 +1,10 @@
 # Para executar o projeto
 
-## Valores default
-A URL é um parâmetro obrigatório
+## Valores default (caso não seja informado o requests nem o concurrency
 
---requests = 10
---concurrency = 1 
+- --url é um parâmetro obrigatório
+- --requests = 10
+- --concurrency = 1 
 
 ## Subir localmente
 
