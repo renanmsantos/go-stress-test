@@ -11,7 +11,10 @@
 - Executar o seguinte comando:
 `go run main.go --url=http://google.com.br --requests=100 --concurrency=10`
 
-- Executar usando image publicada no DockerHub
+
+## Subir pela imagem do DockerHub
+
+- Executar o seguinte comando
 `docker run renanmoreirasan/go-stress-tests --url=http://google.com.br --requests=100 --concurrency=10`
 
 
