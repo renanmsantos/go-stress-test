@@ -2,16 +2,16 @@
 
 ## Valores default
 A URL é um parâmetro obrigatório
---request = 10
+--requests = 10
 --concurrency = 1 
 
 ## Subir localmente
 
 - Executar o seguinte comando:
-`go run main.go --url=http://google.com.br`
+`go run main.go --url=http://google.com.br --requests=100 --concurrency=10`
 
 - Executar usando image publicada no DockerHub
-`docker run renanmoreirasan/go-stress-tests -u=http://google.com.br`
+`docker run renanmoreirasan/go-stress-tests --url=http://google.com.br --requests=100 --concurrency=10`
 
 
 # Desafio: Stress Tests
