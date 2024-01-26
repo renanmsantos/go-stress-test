@@ -1,6 +1,6 @@
 # Para executar o projeto
 
-## Valores default (caso não seja informado o requests nem o concurrency
+## Valores default (caso não seja informado o requests nem o concurrency)
 
 - --url é um parâmetro obrigatório
 - --requests = 10
